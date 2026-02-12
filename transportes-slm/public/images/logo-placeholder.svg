@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <rect width="280" height="60" rx="4" fill="#0B2545"/>
+  <rect x="8" y="8" width="44" height="44" rx="6" fill="#1B6FE3"/>
+  <path d="M20 36h20l-4-12H24l-4 12z" fill="#fff"/>
+  <circle cx="25" cy="38" r="3" fill="#fff"/>
+  <circle cx="35" cy="38" r="3" fill="#fff"/>
+  <rect x="26" y="22" width="8" height="6" rx="1" fill="#fff" opacity="0.7"/>
+  <text x="62" y="28" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="16" fill="#fff">TRANSPORTES</text>
+  <text x="62" y="46" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="20" fill="#1B6FE3">SLM</text>
+</svg>

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Primary palette – inspired by transport/logistics branding */
+  --color-primary: #0B2545;
+  --color-primary-light: #134078;
+  --color-accent: #1B6FE3;
+  --color-accent-light: #4A90E8;
+  --color-steel: #475569;
+  --color-steel-light: #94A3B8;
+  --color-light: #F1F5F9;
+  --color-dark: #0F172A;
+
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background, #ffffff);
+  color: var(--foreground, #171717);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-steel-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-steel);
+}
+
+/* Section anchor offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 80px;
+}
