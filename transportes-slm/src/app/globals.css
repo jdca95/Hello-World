@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Primary palette – inspired by transport/logistics branding */
+  /* Primary palette – extracted from Transportes SLM logo */
   --color-primary: #0B2545;
   --color-primary-light: #134078;
-  --color-accent: #1B6FE3;
-  --color-accent-light: #4A90E8;
+  --color-accent: #DC2626;
+  --color-accent-light: #EF4444;
   --color-steel: #475569;
   --color-steel-light: #94A3B8;
   --color-light: #F1F5F9;
