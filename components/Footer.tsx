@@ -1,3 +1,5 @@
+"use client";
+
 const currentYear = new Date().getFullYear();
 
 const navLinks = [

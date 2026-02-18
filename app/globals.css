@@ -11,11 +11,11 @@
 
   body {
     @apply bg-white text-steel-800 antialiased;
-    font-family: var(--font-inter), system-ui, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-montserrat), system-ui, sans-serif;
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
     @apply font-bold tracking-tight;
   }
 }

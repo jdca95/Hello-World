@@ -1,3 +1,5 @@
+"use client";
+
 const bullets = [
   {
     icon: (
@@ -142,8 +144,8 @@ export default function WhyUs() {
         {/* Bottom quote */}
         <div className="mt-14 text-center">
           <blockquote className="text-steel-200 text-lg italic max-w-2xl mx-auto">
-            "Tu carga es nuestra responsabilidad desde que sale de origen hasta que
-            llega a su destino."
+            &ldquo;Tu carga es nuestra responsabilidad desde que sale de origen hasta que
+            llega a su destino.&rdquo;
           </blockquote>
           <cite className="text-orange-brand text-sm font-semibold not-italic mt-2 block">
             — Equipo Transportes SLM
